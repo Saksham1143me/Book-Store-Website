@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-compatible" content="ie-edge">
+<link rel="stylesheet" href="cart.css">
+</head>
+<title>
+Cart-Book Store
+</title>
+<body>
+    <div class="nav">
+        <div class="left">
+        <img src="assets/icons/facebook-svgrepo-com.svg" alt="">
+        <img src="assets/icons/instagram-svgrepo-com.svg" alt="">
+        <img src="assets/icons/linkedin-svgrepo-com (1).svg" alt="">
+        <img src="assets/icons/telephone.svg" alt="">
+        <img src="assets/icons/twitter-154-svgrepo-com.svg" alt="">
+    </div>
+    <div class="mycart">My Cart</div>
+    <div class="right"> <img src="assets/icons/icons8-user-24.png" alt="">User</div>
+    </div>
+<div class="cart">
+<div class="carttitle"><form action="/"><button>Proceed To CheckOut</button></form></div>
+<div class="addeditems">
+<div class="done"><div class="img"><img src="assets/images/books/th (1).jpeg" alt=""></div><div class="cont"><div>The Past Is Rising</div><div>  <img src="assets/icons/yellow-star-symbol-png-favpng-bm62N2ptHGdbe92c12kWfgMgF.jpg" height="20px" width="20px" alt="">4.3</div>
+<div>
+<div>
+<button onclick="dlt(this)"><img src="assets/icons/icons8-delete-30.png" alt="" > Delete</button>
+</div>
+<div><button onclick="dlt(this)"><img src="assets/icons/icons8-save-30.png" alt=""> Save for Later</button></div></div>
+</div>
+<div class="quantity"><button onclick="dec(this)"><img src="assets/icons/icons8-minus-50.png" height="20px" alt=""></button><input type="text" name="quantity" value="1" height="20px" width="20px"><button onclick="inc(this)"><img src="assets/icons/icons8-plus-30.png" height="25px" alt=""></button></div>
+<div class="price">Price(Rs):<span data-initial-price="423">423</span></div>
+</div>
+<div class="done"><div class="img"><img src="assets/images/books/th (2).jpeg" alt=""></div><div class="cont"><div>The Story Book</div><div>  <img src="assets/icons/yellow-star-symbol-png-favpng-bm62N2ptHGdbe92c12kWfgMgF.jpg" height="20px" width="20px" alt="">5</div>
+<div>
+<div>
+<button onclick="dlt(this)"><img src="assets/icons/icons8-delete-30.png" alt="" > Delete</button>
+</div>
+<div><button onclick="dlt(this)"><img src="assets/icons/icons8-save-30.png" alt=""> Save for Later</button></div></div>
+</div>
+<div class="quantity"><button onclick="dec(this)"><img src="assets/icons/icons8-minus-50.png" height="20px" alt=""></button><input type="text" name="quantity" value="1" height="20px" width="20px"><button onclick="inc(this)"><img src="assets/icons/icons8-plus-30.png" height="25px" alt=""></button></div>
+<div class="price">Price(Rs):<span data-initial-price="323">323</span></div>
+</div>
+<div class="done"><div class="img"><img src="assets/images/books/th (3).jpeg" alt=""></div><div class="cont"><div>USA INC.</div><div> <img src="assets/icons/yellow-star-symbol-png-favpng-bm62N2ptHGdbe92c12kWfgMgF.jpg" height="20px" width="20px" alt="">4.8</div>
+<div>
+<div>
+<button onclick="dlt(this)"><img src="assets/icons/icons8-delete-30.png" alt="" > Delete</button>
+</div>
+<div><button onclick="dlt(this)"><img src="assets/icons/icons8-save-30.png" alt=""> Save for Later</button></div></div>
+</div>
+<div class="quantity"><button onclick="dec(this)"><img src="assets/icons/icons8-minus-50.png" height="20px" alt=""></button><input type="text" name="quantity" value="1" height="20px" width="20px"><button onclick="inc(this)"><img src="assets/icons/icons8-plus-30.png" height="25px" alt=""></button></div>
+<div class="price">Price(Rs):<span data-initial-price="243">243</span></div>
+</div>
+<div class="done"><div class="img"><img src="assets/images/books/th (4).jpeg" alt=""></div><div class="cont"><div>Enceladous</div><div><img src="assets/icons/yellow-star-symbol-png-favpng-bm62N2ptHGdbe92c12kWfgMgF.jpg" height="20px" width="20px" alt="">3.9</div>
+<div>
+<div>
+    <div>
+<button onclick="dlt(this)"><img src="assets/icons/icons8-delete-30.png" alt="" > Delete</button></div>
+<div><button onclick="dlt(this)"><img src="assets/icons/icons8-save-30.png" alt=""> Save for Later</button></div></div>
+</div>
+</div>
+<div class="quantity"><button onclick="dec(this)"><img src="assets/icons/icons8-minus-50.png" height="20px" alt=""></button><input type="text" name="quantity" value="1" height="20px" width="20px"><button onclick="inc(this)"><img src="assets/icons/icons8-plus-30.png" height="25px" alt=""></button></div>
+<div class="price">Price(Rs):<span data-initial-price="567">567</span></div>
+</div>
+</div>
+<div class="total">Total price:<span></span></div>
+<div class="suggest">
+<h1>Recent Items</h1>
+<div><img src="assets/images/books/th (1).jpeg" alt=""><button class="add" onclick="additem()"><img src="assets/icons/icons8-shopping-cart-50 (1).png" height="20px" alt="">Add to Cart</button><button class="pay">Buy Now</button></div>
+<div><img src="assets/images/books/th (2).jpeg" alt=""><button class="add" onclick="additem()"><img src="assets/icons/icons8-shopping-cart-50 (1).png" height="20px" alt="">Add to Cart</button><button class="pay">Buy Now</button></div>
+<div><img src="assets/images/books/th (3).jpeg" alt=""><button class="add" onclick="additem()"><img src="assets/icons/icons8-shopping-cart-50 (1).png" height="20px" alt="">Add to Cart</button><button class="pay">Buy Now</button></div>
+<div><img src="assets/images/books/th (4).jpeg" alt=""><button class="add" onclick="additem()"><img src="assets/icons/icons8-shopping-cart-50 (1).png" height="20px" alt="">Add to Cart</button><button class="pay">Buy Now</button></div>
+</div>
+</div>
+<script src="cart.js"></script>
+</body>
+</html>

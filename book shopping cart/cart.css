@@ -1,0 +1,197 @@
+*{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.carttitle{
+    font-size: 50px;
+    align-self: center;
+    margin: 20px;
+}
+.suggest{
+    display: flex;
+    gap: 20px;
+}
+.suggest div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 178, 178);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+    padding:20px;
+    gap: 10px;
+    border-radius: 20px;
+}
+.suggest div button{
+    background-color: rgb(210, 142, 16);
+    border: 0px;
+    height: 30px;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.addeditems{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addeditems div{
+    background-color: rgb(148, 163, 15);
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+margin-left: 2px;
+}
+.cont >:nth-child(1){
+    font-size: 30px;
+}
+.cont >:nth-child(2){
+    display: flex;
+    gap: 10px;
+}
+.cont button{
+    height: 50px;
+    width: 140px;
+    font-size: 15px;
+    color: rgb(0, 8, 1);
+    background-color: rgb(135, 244, 244);
+    font-weight: 600;
+    border-radius: 8px;
+}
+.cont button:hover{
+    transform: scale(1.1);
+}
+.addeditems div :nth-child(1) img{
+    height: 180px;
+    width: 130px;
+}
+.cont button img{
+    height: 16px !important;
+    width: 16px !important;
+}
+input[Type="text"]{
+height: 36px;
+width: 36px;
+text-align: center;
+}
+.addeditems div >:nth-child(1){
+    margin-left: -12px;
+}
+.quantity{
+    display: flex;
+    /* justify-content: center; */
+    gap: 4px;
+    justify-self:flex-start;
+    align-items:center;
+    margin-left: 400px;
+}
+.quantity img{
+    height: 25px !important;
+    width: 40px !important;
+}
+.quantity button{
+    height: 30px !important;
+    width: 45px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+border-radius: 10px !important;
+}
+.pay{
+border-radius: 10px !important;
+}
+.add:hover{
+transform: scale(1.1);
+transition: all 0.08s ease-in;
+}
+.pay:hover{
+transform: scale(1.1);
+transition: all 0.08s ease-in;
+}
+.nav{
+    display: flex;
+    background-color: blueviolet;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.nav img{
+    height: 30px;
+}
+.nav img:hover{
+    transform: scale(1.17);
+}
+.left{
+    display: flex;
+    gap: 10px;
+align-items: center;
+justify-content: center;
+}
+.right{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(254, 255, 254);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+.mycart{
+font-size: 40px;
+font-weight: 700;
+color: rgb(253, 254, 254);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carttitle button{
+    height: 80px;
+    width: 900px;
+    background-color: rgb(238, 249, 35);
+    font-size: 40px;
+border-radius: 10px;
+color: brown;    
+font-weight: 600;
+}
+.carttitle button:hover{
+    transform: scale(1.03);
+}
+button:hover{
+cursor: pointer;
+}
+.done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+font-size: 20px;
+margin-right: 30px;
+}
+.price{
+    gap: 10px;
+}
+.total{
+    background-color: red;
+    height: 40px;
+    width: 95vw;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 14px;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
