@@ -1,0 +1,50 @@
+.passbox{
+    background-color:rgb(237, 233, 233);
+    height:250px;
+    width: max(1000px,98vw);
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    padding: 4px 0px;
+    margin: 0px;
+}
+input[type="submit"]{
+    background-color: #04AA6D;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: max(600px,95vw);
+    border: 0px;
+    cursor: pointer;}
+input[type="submit"]:hover{
+background-color:#038350;
+}
+.enter{
+    height: 40px;
+    width: max(600px,95vw);
+    border-radius: 4px;
+    border: 0.01px solid rgb(199, 198, 198);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+
+}
+.error{
+    display: none;
+}
+.term a{
+    margin-left: 450px;
+    text-decoration: none;
+    color: red;
+    margin-top: 620px;
+}

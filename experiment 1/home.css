@@ -1,0 +1,72 @@
+.scroll>img{
+    filter: blur(7px);
+    position:absolute;
+}
+body{
+    background-color: rgb(35, 34, 34);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.scrollpage img{
+position: relative;
+}
+.navbar ul{
+align-items: center;
+
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    font-size: 25px;
+}
+.navbar{
+background-color: rgb(111, 47, 4);
+}
+.navbar ul li{
+list-style: none;
+}
+.navbar ul li a{
+text-decoration: none;
+    color: rgb(210, 195, 195);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar ul li a:hover{
+    color: rgb(130, 197, 130);
+    font-size:31px;
+}
+.navbar ul :nth-child(5){
+    justify-self: flex-end;
+    margin-left: 550px;
+}
+.font{
+    position: relative;
+    font-size: 50px;
+    z-index: 10;
+    color: rgb(248, 246, 246);
+    background-color: rgb(59, 4, 45);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.more{
+    margin-top: 30px;
+}
+.more a{
+    margin-top: 40px;
+    font-size: 80px;
+    color: orange;
+text-decoration: none;
+}
+.more a:hover{
+    color: aqua;
+    font-size: 78px;
+}

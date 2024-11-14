@@ -1,0 +1,77 @@
+*{
+    /* padding: 0%; */
+    margin: 0px;
+}
+.title{
+    display:flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+.title h1{
+    align-self: flex-start;
+    background-color: rgb(163, 163, 203);
+    height: 50px;
+    margin-top: -4px;
+    justify-self: center;
+    display: flex;
+    width: 480px;
+    padding-left:140px;
+    padding-top: 10px;
+    padding-bottom: -20px;
+}
+.txt >:nth-child(2){
+font-size: xx-large;
+/* margin-left: 110px; */
+padding-left:140px;
+padding-top: 10px;
+width: 480px;
+height: 50px;
+background-color: aqua;
+}
+.title :nth-child(3) img{
+    height: 40px;
+    margin-top: 20px;
+}
+.title :nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+.title :nth-child(3) button{
+    background: none;
+    border: none;
+}
+.title :nth-child(3) button:hover{
+    transform: scale(1.1);
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card{
+    background-color: rgb(211, 178, 178);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+    border-radius: 6px;
+}
+.card a img{
+    height:200px;
+    width: 140px;
+    border-radius: 6px;
+   
+}
+a h1{
+    color: black;
+    text-decoration:none;
+    margin: 20px;
+}
+.card{
+    font-size: 20px;
+}
